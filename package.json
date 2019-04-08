@@ -1,0 +1,23 @@
+{
+  "name": "facade",
+  "version": "1.0.0",
+  "description": "A thin processing layer",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node src/server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "facade"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0",
+    "superagent": "3.8.3"
+  }
+}
